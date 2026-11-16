@@ -1,0 +1,35 @@
+.trail-card {
+  background: var(--secondary-color);
+  border-radius: 30px;
+  padding-bottom: 30px;
+  border: 2px solid var(--primary-color);
+  min-height: 300px;
+  overflow: hidden;
+}
+.trail-heading {
+  color: var(--primary-color);
+  padding: 10px 20px 0 20px;
+}
+.trail-photo {
+  height: 200px;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 28px 28px 0 0;
+}
+.trail-location {
+  padding: 10px 20px 20px 20px;
+}
+.trail-location::before {
+  content: url('/public/location-pin.svg') / '';
+}
+
+section.trail-card a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+section.trail-card a::after {
+  content: '\203A';
+  margin-left: 5px;
+}

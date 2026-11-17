@@ -114,4 +114,15 @@ export class TrailService {
     getTrailLocationById(id: number): TrailLocationInfo | undefined {
         return this.trailLocationList.find((TrailLocation)=> TrailLocation.id === id);
     }
+
+    submitApplication(
+        firstName: string,
+        lastName: string,
+        email: string,
+        trailName: string
+        ) {
+        console.log(
+            `Application received for ${trailName}: ${firstName} ${lastName}, ${email}.`
+        );
+    }
 }

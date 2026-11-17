@@ -39,7 +39,7 @@ li {
   list-style-type: none;
 }
 
-.trail-apply .section-heading {
+.trail-inquiry .section-heading {
   font-size: 18pt;
   margin-bottom: 15px;
 }
@@ -49,20 +49,18 @@ input {
   display: block;
 }
 label {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-weight: bold;
   text-transform: uppercase;
   font-size: 12pt;
+  padding-bottom: 5px;
 }
 input {
   font-size: 16pt;
   margin-bottom: 15px;
   padding: 10px;
   width: 400px;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  border-bottom: solid 0.3px;
+  border: solid 0.3px;
 }
 @media (max-width: 1024px) {
   .trail-photo {

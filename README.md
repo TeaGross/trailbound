@@ -22,4 +22,8 @@ This project demonstrates my understanding and practical use of core Angular con
 
 * Component communication: Passing data between components where needed.
 
+## Tech stack
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+
 ### More features and updates will be added as the project evolves.

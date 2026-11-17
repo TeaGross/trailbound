@@ -6,7 +6,7 @@ import { TrailLocationInfo } from '../traillocation';
   selector: 'app-trail-location',
   styleUrl: './trail-location.css',
   template: `
-    <section class="trail-card">
+    <article class="trail-card">
       <img
         class="trail-photo"
         [src]="trailLocation().photo"
@@ -15,7 +15,7 @@ import { TrailLocationInfo } from '../traillocation';
       />
       <h2 class="trail-heading">{{ trailLocation().name }}</h2>
       <p class="trail-location">{{ trailLocation().location }}, {{ trailLocation().country }}</p>
-    </section>
+    </article>
   `,
 })
 export class TrailLocation {

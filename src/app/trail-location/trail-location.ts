@@ -1,8 +1,9 @@
 import { Component, input } from '@angular/core';
 import { TrailLocationInfo } from '../traillocation';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  imports: [],
+  imports: [RouterLink],
   selector: 'app-trail-location',
   styleUrl: './trail-location.css',
   template: `
@@ -15,6 +16,8 @@ import { TrailLocationInfo } from '../traillocation';
       />
       <h2 class="trail-heading">{{ trailLocation().name }}</h2>
       <p class="trail-location">{{ trailLocation().location }}, {{ trailLocation().country }}</p>
+      <a [routerLink]="['/details', trailLocation().id]">Explore {{ trailLocation().name }}</a>
+      
     </article>
   `,
 })

@@ -1,0 +1,72 @@
+.trail-photo {
+  height: 600px;
+  width: 50%;
+  object-fit: cover;
+  border-radius: 30px;
+  float: right;
+}
+
+.trail-heading {
+  font-size: 48pt;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.trail-location::before {
+  content: url('/public/location-pin.svg') / '';
+}
+
+.trail-location {
+  font-size: 24pt;
+  margin-bottom: 15px;
+}
+
+.trail-features > .section-heading {
+  color: var(--secondary-color);
+  font-size: 24pt;
+  margin-bottom: 15px;
+}
+
+.trail-features {
+  margin-bottom: 20px;
+}
+
+.trail-features li {
+  font-size: 14pt;
+}
+
+li {
+  list-style-type: none;
+}
+
+.trail-apply .section-heading {
+  font-size: 18pt;
+  margin-bottom: 15px;
+}
+
+label,
+input {
+  display: block;
+}
+label {
+  color: var(--secondary-color);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12pt;
+}
+input {
+  font-size: 16pt;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 400px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid 0.3px;
+}
+@media (max-width: 1024px) {
+  .trail-photo {
+    width: 100%;
+    height: 400px;
+  }
+}

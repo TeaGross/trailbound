@@ -24,4 +24,8 @@ import { TrailService } from '../trail-service';
 export class Home {
   trailLocationList: TrailLocationInfo[] = [];
   trailService: TrailService = inject(TrailService);
+
+  constructor() {
+    this.trailLocationList = this.trailService.getAllTrailLocations();
+  }
 }

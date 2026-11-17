@@ -22,6 +22,8 @@ This project demonstrates my understanding and practical use of core Angular con
 
 * Component communication: Passing data between components where needed.
 
+* Reactive Forms: Building forms with `FormGroup` and `FormControl`, handling form submissions with `Submit` and collecting form data.
+
 ## Tech stack
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
